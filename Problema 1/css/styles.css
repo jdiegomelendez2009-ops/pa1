@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    --color-texto: #479859;
+    --color-principal: #ffffffbc;
+
+}
+img{
+    width: 100%;
+}
+body{
+    background-image: url('https://images-ext-1.discordapp.net/external/GF6MO1eSoYVpSXdIejRwLhN5bgn_hBga0TFZCr5p_Jo/https/estaticos-cdn.prensaiberica.es/clip/bf5fe900-ada3-464a-ace7-da326dbc59f6_alta-libre-aspect-ratio_default_0.jpg?format=webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor h2{
+    width: 40%;
+    border: white 4px solid;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 10px;
+}
+.contenedor h3{
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 10px;
+}
+.titulo{
+    background-color: var(--color-principal);
+    padding: 20px;
+    margin-top: 5px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: flex-end;
+}
+.titulo h1{
+    color: var(--color-texto);
+    font-family: 'Bebas Neue';
+    margin: 0;
+    font-size: 40px;
+    
+}
